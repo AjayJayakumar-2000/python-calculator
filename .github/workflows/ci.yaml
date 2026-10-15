@@ -2,6 +2,7 @@ name: python CI
 on:
   pull_request:
     branches:
+      - test
       - main
 
 jobs:
